@@ -12,5 +12,4 @@ public class VariableTest {
 		System.out.println(count);
 		System.out.println(level);
 	}
-
 }
