@@ -33,6 +33,7 @@ public class CharacterTest {
 		 * UTF-8 : 1바이트에서 4바이트까지 다양하게 문자를 표현할 수 있음(8~32bit)
 		 * UTF-16 : 2바티으로 문자를 표현(16bit)
 		 */
+		
 	}
 
 }
