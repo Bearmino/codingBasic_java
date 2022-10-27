@@ -15,7 +15,7 @@ public class CharacterTest {
 		System.out.println(ch3);
 		System.out.println((char)ch3);
 		
-		//char ch4 = -66; ììë ëìì í  ì ìë¤.
+		//char ch4 = -66; 음수는 적용할 수 없음
 		
 		char ch5='한';
 		char ch6='\uD55c';
