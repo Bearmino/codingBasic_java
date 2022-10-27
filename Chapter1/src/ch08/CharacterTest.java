@@ -23,7 +23,6 @@ public class CharacterTest {
 		System.out.println(ch5);
 		System.out.println(ch6);
 		
-		
 		/*
 		 * character set : 문자를 숫자로 변환한 값의 세트
 		 * encoding : 문자가 숫자로 변환되는 것
