@@ -22,7 +22,6 @@ public class BitTest {
 		//왼쪽 shift num1 
 		System.out.println(num1);
 		
-		
 	}
 
 }
