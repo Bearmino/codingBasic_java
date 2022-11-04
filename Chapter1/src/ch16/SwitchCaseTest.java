@@ -3,27 +3,22 @@ package ch16;
 public class SwitchCaseTest {
 
 	public static void main(String[] args) {
+		String medal = "Gold";
 		
-		int month = 10;
-		int day;
+		switch(medal){
 		
-		switch(month) {
-		
-		case 1: case 3: case 5: case 7: case 8: case 10: case 12:
-			day=31;
+		case "Gold":
+			System.out.println("금메달입니다.");
 			break;
-		case 4: case 6: case 9: case 11:
-			day=30;
+		case "Silver":
+			System.out.println("은메달입니다.");
 			break;
-		case 2:
-			day=28;
+		case "Bronze":
+			System.out.println("동메달입니다.");
 			break;
 		default:
-			day=0;
-			System.out.println("존재하지 않는 달입니다.");
-		
+			System.out.println("메달이 없습니다.");
+			break;
 		}
-		System.out.println(month + "월은 " + day+"일 입니다.");
 	}
-
 }
