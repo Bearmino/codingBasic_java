@@ -1,2 +1,2 @@
 # codingBasic_java
-codingpractice
+coding practice every day!!
