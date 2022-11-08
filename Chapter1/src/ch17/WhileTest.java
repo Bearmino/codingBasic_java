@@ -19,7 +19,7 @@ public class WhileTest {
 		}
 		System.out.println(sum);
 		System.out.println(num);
-		//1~10까지 더한 값
+		//1~10까지 더한 값이다.
 	}
 
 }
