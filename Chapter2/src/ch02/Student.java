@@ -13,7 +13,8 @@ package ch02;
  * 3.각 객체가 제공하는 기능들 간의 소통을 통한 객체간의 협력을 구현
  * 
  * */
-// 학생클래스
+
+// 학생클래스 정의
 public class Student {
 	
 	int studentNumber;
