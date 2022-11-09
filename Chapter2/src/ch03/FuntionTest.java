@@ -42,7 +42,6 @@ public static void main(String[] args) {
 	int total = addNum(n1, n2);
 	System.out.println(total);
 	
-	
 	sayHello("안녕하세요");
 	
 	int num=calcSum();
