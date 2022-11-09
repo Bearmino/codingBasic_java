@@ -49,5 +49,12 @@ public static void main(String[] args) {
 	System.out.println(num);
 		
 	}
+/*
+ * 함수 호출 관련 스택 메모리
+ * 스택 : 함수가 호출될 때 지역 변수들이 사용하는 메모리 
+ * 함수의 수행이 끝나면 자동으로 반환 되는 메모리
+ */
+
+
 
 }
