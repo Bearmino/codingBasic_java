@@ -1,5 +1,14 @@
 package ch07;
 
+/*
+ * 여러가지 생성자를 정의하는 생성자 오버로딩(Overloading)
+ * 
+ * 생성자를 구현해서 사용
+ * 클래스에 생성자를 구현하면 기본 생성자는 제공되지 않음
+ * 생성자를 호출하는 코드에서 여러 생성자 중 필요에 따라 호출해서 사용함
+ * 
+ */
+
 public class UserInfo {
 	
 	public String userId;
