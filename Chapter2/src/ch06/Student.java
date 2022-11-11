@@ -19,7 +19,6 @@ package ch06;
  * 매개 변수가 없음, 구현부가 없음
  */
 
-
 public class Student {
 	
 	public int studentNumber;
