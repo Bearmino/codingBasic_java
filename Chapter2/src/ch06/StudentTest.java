@@ -11,6 +11,7 @@ public class StudentTest {
 		
 		String data = studentLee.showStudentInfo();
 		System.out.println(data);
+		
 	}
 
 }
