@@ -14,6 +14,7 @@ public class OrderReview_Test {
 		order1.menuNumber = 003;
 		
 		order1.orderShowInfo();
+		
 	}
 
 }
