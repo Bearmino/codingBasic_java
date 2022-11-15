@@ -14,6 +14,7 @@ public class OrderReview {
 		System.out.println("주문 시간 : "+orderTime);
 		System.out.println("주문 가격 : "+orderPrice);
 		System.out.println("메뉴 번호 : "+menuNumber);
+		
 	}
 	
 	
