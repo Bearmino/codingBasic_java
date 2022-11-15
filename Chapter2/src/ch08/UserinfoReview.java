@@ -1,5 +1,9 @@
 package ch08;
 
+/*
+ * 키가 180 이고 몸무게가 78 킬로인 남성이 있습니다. 이름은 Tomas 이고 나이는 37세입니다. 객체를 생성하세요.
+ * 
+ */
 public class UserinfoReview {
 
 	public int userInfoLength;
