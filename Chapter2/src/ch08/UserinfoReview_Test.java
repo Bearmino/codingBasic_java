@@ -8,6 +8,10 @@ public class UserinfoReview_Test {
 			
 			String userData = user1.UserinfoShow();
 			System.out.println(userData);
+			
+		UserinfoReview user2 = new UserinfoReview(150, 55, "Alice", 11,"여성");
+			
+			System.out.println(user2.UserinfoShow());
 	}
 
 }
