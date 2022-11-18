@@ -1,6 +1,6 @@
 package ch10;
 /*
- *접근 제어 지시자(acceess modifier)와 정보은닉(information hiding)
+ *접근 제어 지시자(access modifier)와 정보은닉(information hiding)
  * 
  * 접근 제어 지시자
  *  클래스 외부에서 클래스의 멤버 변수, 메서드, 생성자를 사용할 수 있는지 여부를 지정하는 키워드
@@ -13,7 +13,7 @@ package ch10;
 /*
  * get()/set()메서드
  * 
- *  prviate으로 선언된 멤버 변수(필드)에 대해 접근,수정할 수 있는 메서드를 public으로 제공
+ *  private으로 선언된 멤버 변수(필드)에 대해 접근,수정할 수 있는 메서드를 public으로 제공
  *  get()메서드만 제공 되는 경우 read-only필드
  *  이클립스에서 자동으로 생성됨
  *  
