@@ -15,7 +15,7 @@ package ch10;
  *  이클립스에서 자동으로 생성됨
  * 
  * 정보은닉 
- *  private으로 제어한 멤버 변수도 public메서드가 제공되면 접근이 가능하지만 pulbic으로 공개 되었을때본다 
+ *  private으로 제어한 멤버 변수도 public메서드가 제공되면 접근이 가능하지만 public으로 공개 되었을때본다 
  *  private일 때 각 변수에대한 제한을 public메서드에서 제어 할 수 있다.
  *  
  */
@@ -62,5 +62,7 @@ public class BirthDay {
 		}else {
 			System.out.println("유효하지 않은 날짜입니다.");
 		}
+		
+		
 	}
 }
