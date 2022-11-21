@@ -3,7 +3,7 @@ package ch11;
 /*
  * 캡슐화(encapsulation)
  *  정보 은닉을 활용한 캡슐화
- *   - 꼭 필요한 정보와 기능만 외부에 오픈함
+ *   - 꼭 필요한 정보와 기능만 외부에 오픈하여 사용
  *   - 대부분의 멤버 변수와 메서드를 감추고 외부에 통합된 인터페이스만을 제공하여 일관된 기능 구현
  *   - 각각의 메서드나 멤버 변수를 접근함으로써 발행하는 오류를 최소화
  */
@@ -25,11 +25,11 @@ public class MakeReport {
 	
 	private void generateBody() {
 		
-		buffer.append("Jame \t");
+		buffer.append("Min_sik \t");
 		buffer.append("Seoul Korea \t");
 		buffer.append("010-2221-3333\n");
 		
-		buffer.append("Tomas \t");
+		buffer.append("Dong_suk \t");
 		buffer.append("Seoul Korea \t");
 		buffer.append("010-4231-3134\n");
 	}
