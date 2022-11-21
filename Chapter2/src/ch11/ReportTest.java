@@ -4,10 +4,10 @@ public class ReportTest {
 
 	public static void main(String[] args) {
 		
-		MakeReport report = new MakeReport();
-		String builder = report.getReport();
+		MakeReport builder = new MakeReport();
+		String report = builder.getReport();
 		
-		System.out.println(builder);
+		System.out.println(report);
 	}
 
 }
