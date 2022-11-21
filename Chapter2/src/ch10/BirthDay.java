@@ -11,7 +11,7 @@ package ch10;
  * get()/set()메서드
  * 	
  * 	private으로 선언된 멤버 변수(필드)에 대해 접근,수정할 수 있는 메서드를 public으로 제공
- *  get()메서드만 제공 되는 경우 read-only필드
+ *  get()메서드만 제공 되는 경우 read-only필드가 된다.
  *  이클립스에서 자동으로 생성됨
  * 
  * 정보은닉 
@@ -21,11 +21,11 @@ package ch10;
  */
 public class BirthDay {
 		
-	private int day;
+	private int day; //private로 외부에서 접근 불가
 	private int month;
 	private int year;
 	
-	private boolean isValid; //valid :유효한, 타당한
+	private boolean isValid; //boolean의 기본값은 false를 가진다. valid :유효한, 타당한
 
 	public int getDay() {
 		return day;
@@ -40,7 +40,12 @@ public class BirthDay {
 	}
 
 	public void setMonth(int month) {
-		this.month = month;
+		if(month < 1 || month >12){
+			isValid=false;
+		}else {
+			isValid=true;
+			this.month = month;			
+		}
 	}
 
 	public int getYear() {
