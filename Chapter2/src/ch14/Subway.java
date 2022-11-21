@@ -6,7 +6,7 @@ public class Subway {
 	int passengerCount;
 	int money;
 	
-	//버스번호
+	//지하철 라인
 	public Subway(String lineName) {
 		this.lineName=lineName;
 	}
