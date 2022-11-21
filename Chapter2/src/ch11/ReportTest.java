@@ -8,6 +8,7 @@ public class ReportTest {
 		String report = builder.getReport();
 		
 		System.out.println(report);
+		
 	}
 
 }
