@@ -16,9 +16,8 @@ public class Subway {
 		this.money += money;
 		passengerCount++;
 	}
-	//지하철정보
+	//지하철 정보
 	public void showSubwayInfo() {
 		System.out.println(lineName+" 지하철의 승객은 "+passengerCount+"이고, 수입은 "+money+"입니다.");
-		
 	}	
 }
