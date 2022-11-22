@@ -24,6 +24,7 @@ package ch14;
  * minsik은 5000원을 가지고 있었고, 100번 버스를 타면서 1000원을 지불 합니다.
  * dongsuk은 100000원을 가지고 있었고, 초록색 지하철을 타면서 1200원을 지불 합니다.
  * 
+ * 
  */
 
 public class TakeTransTest {
