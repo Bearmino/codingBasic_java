@@ -37,7 +37,7 @@ public class TakeTransTest {
 		Bus bus100 = new Bus(100);
 		Subway greenSubway = new Subway("Green");
 		
-		studentOh.takeBus(bus100);
+		studentOh.takeBus(bus100);//객체협력구간
 		bus100.showBusInfo();
 		studentOh.showInfo();
 		
