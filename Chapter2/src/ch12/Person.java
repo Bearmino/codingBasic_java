@@ -23,7 +23,7 @@ public class Person {
 	int age;
 	
 	public Person() {
-		this("이름없음",1);
+		this("이름없음",1); //생성자를 호출
 	}
 	
 	public Person(String name, int age) {		
