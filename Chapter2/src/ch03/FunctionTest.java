@@ -6,7 +6,7 @@ package ch03;
  * 함수로 구현된 하나의 기능은 여러 곳에서 동일한 방식으로 호출이 가능함
  */
 	
-public class FuntionTest {
+public class FunctionTest {
 	
 //함수의 정의 방식 예제
 public static int addNum(int num1, int num2) {
