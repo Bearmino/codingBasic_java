@@ -2,7 +2,7 @@ package ch12;
 
 /*
  * this
- * 
+ *   
  * 객체 자신(인스턴스 자신)을 가르킴
  * 생성자에서 또 다른 생성자를 호출시에 사용
  * 자신의 주소(참조값)을 반환함
@@ -23,12 +23,16 @@ public class Person {
 	int age;
 	
 	public Person() {
-		this("이름없음",1);
+		this("이름없음",1); //생성자에서 다른 생성자를 호출(초기화시 주로 이용)
 	}
 	
-	public Person(String name, int age) {		
+	public Person(String name, int age) {	//이름과 나이를 매개변수로 받는 생성자 생성	
 		this.name = name;
 		this.age = age;		
+	}
+	
+	public void showPerson() {
+		System.out.println(name+","+age);
 	}
 	
 	public Person getPerson() {
@@ -38,11 +42,21 @@ public class Person {
 	public static void main(String[] args) {
 		
 		Person p = new Person();
-		p.name = "James";
+		p.name = "Minsik";
 		p.age = 30;
+		p.showPerson();
 		
 		Person p2 = new Person();
+		p2.name = "Dongsuk";
+		p2.age = 50;
+		p2.showPerson();
+		
 		System.out.println(p);
+		//ch12.Person@36baf30c 
+		Person person2 = p.getPerson();
+		System.out.println(person2);
+		
+		
 		System.out.println(p2);
 		
 	}	

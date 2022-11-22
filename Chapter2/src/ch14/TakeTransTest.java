@@ -24,27 +24,37 @@ package ch14;
  * minsik은 5000원을 가지고 있었고, 100번 버스를 타면서 1000원을 지불 합니다.
  * dongsuk은 100000원을 가지고 있었고, 초록색 지하철을 타면서 1200원을 지불 합니다.
  * 
+<<<<<<< HEAD
  * 
+=======
+>>>>>>> branch 'main' of https://github.com/Bearmino/codingBasic_java.git
  */
 
 public class TakeTransTest {
 
 	public static void main(String[] args) {
 		Student studentOh = new Student("minsik" , 5000);	
-		Student studentShin = new Student("dongsuk" , 10000);	
+		Student studentShin = new Student("dongsuk" , 10000);
+		Student studentKim = new Student("changhyun", 20000);
 		
 		Bus bus100 = new Bus(100);
 		Subway greenSubway = new Subway("Green");
 		
 		studentOh.takeBus(bus100);
-		studentShin.takeSubway(greenSubway);
-		
+		bus100.showBusInfo();
 		studentOh.showInfo();
+		
+		System.out.println();
+		
+		studentShin.takeSubway(greenSubway);
+		greenSubway.showSubwayInfo();
 		studentShin.showInfo();
 		
-		bus100.showBusInfo();
-		greenSubway.showSubwayInfo();
+		System.out.println();
 		
+		studentKim.takeBus(bus100);
+		bus100.showBusInfo();
+		studentKim.showInfo();
 	}
 
 }
