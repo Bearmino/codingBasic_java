@@ -18,7 +18,7 @@ public class Bus {
 	}
 	//버스정보
 	public void showBusInfo() {
-		System.out.println(busNumber+"번 버스의 승객은 "+passengerCount+"이고, 수입은 "+money+"입니다.");
+		System.out.println(busNumber+"번 버스의 승객은 "+passengerCount+"이고, 버스 수익은 "+money+"입니다.");
 		
 	}	
 }
