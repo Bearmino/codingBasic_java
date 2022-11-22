@@ -30,7 +30,8 @@ public class TakeTransTest {
 
 	public static void main(String[] args) {
 		Student studentOh = new Student("minsik" , 5000);	
-		Student studentShin = new Student("dongsuk" , 10000);	
+		Student studentShin = new Student("dongsuk" , 10000);
+		Student studentKim = new Student("changhyun", 20000);
 		
 		Bus bus100 = new Bus(100);
 		Subway greenSubway = new Subway("Green");
@@ -45,7 +46,11 @@ public class TakeTransTest {
 		greenSubway.showSubwayInfo();
 		studentShin.showInfo();
 		
+		System.out.println();
 		
+		studentKim.takeBus(bus100);
+		bus100.showBusInfo();
+		studentKim.showInfo();
 	}
 
 }
