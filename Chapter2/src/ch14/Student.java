@@ -10,12 +10,10 @@ public class Student {
 			this.money=money;		
 	}
 	
-	
-	public void takeBus(Bus bus) {
+	public void takeBus(Bus bus) { // 학생이 탄 버스를 매개변수로 한다.
 		System.out.println(studentName+"학생이 "+this.money+"원을 가지고 탑승했습니다.");
 		bus.take(1000);
-		this.money-=1000;
-		
+		this.money-=1000;		
 	}
 	
 	public void takeSubway(Subway subway) {
