@@ -13,7 +13,7 @@ public class Bus {
 	
 	//승차
 	public void take(int money) {
-		this.money += money;
+		this.money += money; //take메서드를 통해 객체간의 협력으로 학생의 돈이 버스 수입으로 들어옴
 		passengerCount++;
 	}
 	//버스정보

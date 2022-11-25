@@ -7,10 +7,11 @@ public class BirthDayTest {
 		BirthDay date = new BirthDay();
 		
 		date.setYear(2018);
-		date.setMonth(8);
+		date.setMonth(12);
 		date.setDay(10);
 		
 		date.showDate();
+		
 	}
 
 }
