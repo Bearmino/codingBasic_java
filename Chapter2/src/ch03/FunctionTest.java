@@ -6,7 +6,7 @@ package ch03;
  * 함수로 구현된 하나의 기능은 여러 곳에서 동일한 방식으로 호출이 가능함
  */
 	
-public class FuntionTest {
+public class FunctionTest {
 	
 //함수의 정의 방식 예제
 public static int addNum(int num1, int num2) {
@@ -57,7 +57,7 @@ public static void main(String[] args) {
 /*
  * 메서드란?
  * 객체의 기능을 구현하기 위해 클래스 내부에 구현되는 함수!!
- * 멤버함수(member funtion)이라고 한다.
+ * 멤버함수(member function)이라고 한다.
  * 메서드를 구현함으로써 객체의 기능이 구현
  * 메서드의 이름은 그 객체를 사용하는 객체(클라이언트)에 맞게 짓는것이 좋음
  *  예)getInfo(), getStudentName()
