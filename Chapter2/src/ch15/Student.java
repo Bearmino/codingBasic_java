@@ -15,7 +15,6 @@ public class Student {
 		this.money -= 10000;	
 	}
 	
-	s
 	
 	
 	
