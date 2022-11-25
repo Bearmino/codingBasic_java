@@ -2,11 +2,11 @@ package ch15;
 
 public class Student {
 
-	String student;
+	String studentName;
 	int money;
 	
-	public Student(String student,int money) {
-		this.student=student;
+	public Student(String studentName,int money) {
+		this.studentName=studentName;
 		this.money=money;
 	}
 	
@@ -15,7 +15,8 @@ public class Student {
 		this.money -= 10000;	
 	}
 	
-	s
-	
-	
+	public void showStudent() {
+		System.out.println(studentName+"님의 남은 돈은 "+money+"입니다.");
+	}
+
 }
