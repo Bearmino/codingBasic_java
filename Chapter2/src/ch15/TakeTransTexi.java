@@ -9,6 +9,7 @@ public class TakeTransTexi {
 			
 			Edward.showStudent();
 			taxiWel.showTaxiInfo();
+			
 	}
 
 }
