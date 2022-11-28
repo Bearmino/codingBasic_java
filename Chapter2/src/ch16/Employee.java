@@ -12,10 +12,10 @@ public class Employee {
 	private String employeeName;
 	private String department;
 	
-	public Employee() {
+	public Employee() { //초기화 작업에는 생성자를 사용한다.
 		
 		serialNum++;
-		employeeId = serialNum;
+		employeeId = serialNum; //static serialNum은 공용 사용하면 모두가 똑같은 사번이기에, 증감된 사번을 Id에 저장한다.
 		
 	}
 
