@@ -10,9 +10,14 @@ public class Student {
 		this.money=money;
 	}
 	
-	public void takeTaxi(Taxi taxi) {
-		taxi.fee(10000);
+	public void takeTaxi(Taxi taxi) { //
+		taxi.take(11,10000);
 		this.money -= 10000;	
+	}
+	
+	public void takeOffTaxi(Taxi taxiOff) {
+		taxiOff.takeOff(1);
+		
 	}
 	
 	public void showStudent() {
