@@ -16,7 +16,7 @@ public class EmployeeTest {
 		System.out.println(minsikOh.getEmployeeName()+","+minsikOh.getEmployeeId());
 		System.out.println(dongsukShin.getEmployeeName()+","+dongsukShin.getEmployeeId());
 		
-		System.out.println(Employee.serialNum);
+		System.out.println(Employee.getSerialNum());
 		
 	}
 
