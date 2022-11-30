@@ -1,6 +1,6 @@
-package ch17;
+package ch16;
 
-public class Employee {
+public class Member {
 	
 	public static int serialNum = 1000;
 	
@@ -8,7 +8,7 @@ public class Employee {
 	private String employeeName;
 	private String department;
 	
-	public Employee() { 
+	public Member() { 
 		
 		serialNum++;
 		employeeId = serialNum; //static serialNum은 공용 사용하면 모두가 똑같은 사번이기에, 증감된 사번을 Id에 저장한다.
