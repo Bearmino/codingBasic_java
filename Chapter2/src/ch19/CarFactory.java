@@ -11,8 +11,6 @@ package ch19;
  * 
  */
 
-
-
 public class CarFactory {
 	
 	private static CarFactory instance = new CarFactory();
