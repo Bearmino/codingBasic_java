@@ -26,7 +26,7 @@ public class CarFactory {
 			instance = new CarFactory();
 		}
 			return instance;
-		}
+	}
 	
 
 	public Car createCar() {
